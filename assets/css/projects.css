@@ -1,0 +1,115 @@
+body {
+	margin: 0;
+	background: white;
+	/*font-family: 'Gugi', cursive;*/
+	font-family: 'Cormorant Garamond', serif;
+	font-weight: 400;
+}
+
+/*------------------------------- ABOUT: Navbar -------------------------------*/
+
+.navbar_container {
+	width: 100%;
+	border: 1px blue;
+	border-bottom: 3px solid gold;
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+nav {
+	float: none;
+	margin-left: 26%;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 8px;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 23px;
+  position: relative;
+}
+
+nav a {
+  /*color: #444;*/
+  color:blue;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+  vertical-align: middle;
+
+}
+
+nav a:hover {
+  color: gold;
+  font-size: 20px;
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  position: absolute;
+  top: 0;
+  width: 0%;
+
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
+
+#copyright_projects {
+	text-align: center;
+	position: absolute;
+	margin-top: 25%;
+	font-size: 14px;
+}
+
+
+/*-------------------------------  ABOUT: Heading; -------------------------------*/
+#projects_title {
+	font-size: 36px;
+	color: blue;
+	position: relative;
+	text-align: left;
+	margin-top: 20px;
+	margin-left: 80px;
+}
+
+
+
+/* PROBLEM 4: Turn items into a square, 120x120 px image */
+/* YOUR CODE HERE */
+.item img {
+	width: 150px;
+	height: 150px;
+
+}
+/* PROBLEM 5: Create a 10 px horizontal space between items */
+/* YOUR CODE HERE */
+.item {
+	margin-left: 40px;
+	margin-right: 40px;
+
+}
+
+/* PROBLEM 6: Create a 10px vertical space between rows */
+/* YOUR CODE HERE */
+.row {
+	position: relative;
+	margin-left: 80px;
+	margin-top: 40px;
+	margin-bottom: 10px;
+	display: inline-block;
+}
