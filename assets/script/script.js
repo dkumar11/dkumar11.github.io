@@ -1,7 +1,6 @@
 $(document).ready(function() {
 	window.onbeforeunload = function () {
-		$('#navbar').hide();
-		$('#description_container').hide();
+
   		window.scrollTo(0, 0);
 	}
 
