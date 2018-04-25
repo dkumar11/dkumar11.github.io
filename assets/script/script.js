@@ -35,7 +35,7 @@ $(document).ready(function() {
     	$("#background").css("color", "blue");
     	$("#experience").css("color", "black");
     	$("#contact").css("color", "black");
-    	$('html, body').animate({scrollTop:$('.background_page').position().top}, 'slow');
+    	$('html, body').animate({scrollTop:$('#background_title').position().top}, 'slow');
 
 	});
 
